@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+:root {
+    --powerpink: #FF3162;
+    --high-emphasis:  rgba(0, 0, 0, 0.87);
+  }
+
+  body { 
+      background-color: #F4F4F4;
+  }
+
 h1 {
 font-family: Roboto;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 font-size: 96px;
 text-align: left;
 line-height: 112px;
-color: rgba(0, 0, 0, 0.87);
+color: var(--highemphasis);
 }
 
 h2 {
@@ -19,4 +28,38 @@ line-height: 16px;
 text-align: left;
 letter-spacing: 11.5px;
 text-transform: uppercase;
+color: var(--highemphasis);
+}
+
+p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: var(--highemphasis);
+}
+
+.ctabutton {
+    background-color: var(--powerpink);
+    color: white;
+    padding: 10px 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 4px 5px rgba(0, 0, 0, 0.14);
+    border-radius: 44px;
+}
+
+.bg-image{
+    position: absolute;
+    height: 100%;
+    right: 0;
+    background-image: url('./assets/background.png');
+    background-size: cover;
 }

@@ -1,41 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 :root {
     --powerpink: #FF3162;
-    --high-emphasis:  rgba(0, 0, 0, 0.87);
-  }
+    --high-emphasis: rgba(0, 0, 0, 0.87);
+}
 
-  body { 
-      background-color: #F4F4F4;
-  }
+body {
+    background-color: #F4F4F4;
+}
 
 h1 {
-font-family: Roboto;
-font-style: normal;
-font-weight: 600;
-font-size: 96px;
-text-align: left;
-line-height: 112px;
-color: var(--highemphasis);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 25;
+    font-size: 5rem;
+    line-height: 112px;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+    color: var(--highemphasis);
 }
 
 h2 {
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 16px;
-text-align: left;
-letter-spacing: 11.5px;
-text-transform: uppercase;
-color: var(--highemphasis);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 16px;
+    text-align: left;
+    letter-spacing: 11.5px;
+    text-transform: uppercase;
+    color: var(--highemphasis);
 }
 
-p{
+p {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 20px;
     letter-spacing: 0.25px;
     color: var(--highemphasis);
@@ -48,7 +48,7 @@ p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 16px;
     letter-spacing: 1.25px;
     text-transform: uppercase;
@@ -56,10 +56,25 @@ p{
     border-radius: 44px;
 }
 
-.bg-image{
+.textbutton {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: var(--powerpink);
+}
+
+.bg-image {
     position: absolute;
     height: 100%;
     right: 0;
     background-image: url('./assets/background.png');
     background-size: cover;
+}
+
+i.fab {
+    color: rgba(0, 0, 0, 0.87);
 }
